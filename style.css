@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eaf2fd;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.skills-section {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.skills-tags span {
+  background-color: #4285f4;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.social-icons {
+  margin: 30px 0;
+}
+
+.social-icons a {
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#suggest-btn {
+  background-color: #4285f4;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#suggest-btn:hover {
+  background-color: #3367d6;
+}
+
+#suggestions {
+  margin-top: 20px;
+  font-style: italic;
+  color: #333;
+}
